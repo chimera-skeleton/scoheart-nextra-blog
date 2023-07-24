@@ -1,15 +1,23 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+    "index": {
+        "type": "page",
+        "title": "Me",
+        "display": "hidden",
+        "theme": {
+            "layout": "raw"
+        }
+    },
+    "me": {
+        "type": "page",
+        "title": "About Me",
+        "href": "/"
+    },
+    "daily": {
+        "type": "page",
+        "title": "Daily"
+    },
+    "blog": {
+        "type": "page",
+        "title": "Blog"
+    }
 }

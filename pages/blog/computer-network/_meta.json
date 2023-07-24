@@ -1,0 +1,23 @@
+{
+    "application-layer": {
+        "title": "Application Layer"
+    },
+    "presentation-layer": {
+        "title": "Presentation Layer"
+    },
+    "session-layer": {
+        "title": "Session Layer"
+    },
+    "transport-layer": {
+        "title": "Transport Layer"
+    },
+    "network-layer": {
+        "title": "Network Layer"
+    },
+    "data-link-layer": {
+        "title": "Data Link Layer"
+    },
+    "physical-layer": {
+        "title": "Physical Layer"
+    }
+}
