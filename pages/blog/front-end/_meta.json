@@ -1,0 +1,15 @@
+{
+    "html": "HTML",
+    "css": "CSS",
+    "js": "JavaScript",
+    "js-flavors": "JS Flavors",
+    "js-runtime": "JS Runtime",
+    "jspm": "JS Package Management",
+    "lib": "JS Libraries",
+    "build": "Build Tools",
+    "monorepo": "Monorepo Tools",
+    "test": "Test Tools",
+    "fe-frameworks": "Front End Frameworks",
+    "re-frameworks": "Rendering Frameworks",
+    "js-be-frameworks": "JS Back End Frameworks"
+}

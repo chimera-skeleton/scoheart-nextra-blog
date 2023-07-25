@@ -5,7 +5,7 @@ import style from "./theme.module.css";
 
 const config: DocsThemeConfig = {
   logo: (<Logo></Logo>),
-  primaryHue: 275,
+  primaryHue: 180,
   useNextSeoProps() {
     return {
       titleTemplate: 'Scoheart Blog'
@@ -26,6 +26,11 @@ const config: DocsThemeConfig = {
       </a>
     )
   },
+  navbar: {
+    extraContent: (
+      null
+    )
+  },
   sidebar: {
     defaultMenuCollapseLevel: 1,
     autoCollapse: false,
@@ -38,6 +43,9 @@ const config: DocsThemeConfig = {
       }
       return <>{title}</>
     }
+  },
+  toc: {
+    title: "🔗 Table Of Content"
   },
   i18n: [
     { locale: 'en', text: 'English' },
@@ -52,7 +60,15 @@ const config: DocsThemeConfig = {
   ),
   docsRepositoryBase: 'https://github.com/scoheart',
   footer: {
-    text: "Scoheart's Blog",
+    text: (
+      <span>
+        📦 Scoheart July 24 {new Date().getFullYear()} ©{' '}
+        <a href="https://nextra.site" target="_blank">
+          Nextra
+        </a>
+        .
+      </span>
+    ),
   },
   faviconGlyph: "👻"
 }

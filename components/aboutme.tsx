@@ -1,9 +1,9 @@
 import type { ReactElement } from "react";
-import style from "./information.module.scss"
+import style from "./aboutme.module.scss"
 
 const techStack = ["javascript", "nodejs", "typescript", "react", "vue", "svelte", "astro", "nextjs"]
 
-export default function Information(): ReactElement {
+export default function AboutMe(): ReactElement {
     return (
         <div className={style.wrapper}>
             <section className={style.information}>

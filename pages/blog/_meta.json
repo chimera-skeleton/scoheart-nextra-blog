@@ -24,6 +24,7 @@
         "title": "Programming Languages",
         "type": "separator"
     },
+    "lang-overview": "Overview",
     "c": "C",
     "cpp": "C++",
     "java": "Java",
