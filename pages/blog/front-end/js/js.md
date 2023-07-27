@@ -69,34 +69,37 @@ node index.js
 
 ### 在ES6之前的模块化方案
 
-CommonJS
-
-- nodejs是runtime
+对于nodejs这个runtime
 
 nodejs 集成了一套自己的模块化解决方案
+
+#### CommonJS
 
 - require
 - module.export
 
 
 
-还有一个重要的runtime--》browser
+还有一个重要的runtime --- browser
 
-- AMD
+社区提供的一些模块化解决方案
 
-- CMD
+#### AMD
+
+#### CMD
+
+#### UMD
+
+umd可以兼容两个runtime
+
+- nodejs
+- browser
 
 
-
-- UMD
-  - nodejs
-  - browser
-
-
-
-* ECMAscript Module
 
 ### ES6开辟了全新的模块化方案
+
+ECMAscript Module
 
 
 
