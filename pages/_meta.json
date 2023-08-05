@@ -1,23 +1,22 @@
 {
-    "index": {
-        "type": "page",
-        "title": "Me",
-        "display": "hidden",
-        "theme": {
-            "layout": "raw"
-        }
+    "- cs": {
+        "title": "🎃 Computer Science Basics",
+        "type": "separator"
     },
-    "me": {
-        "type": "page",
-        "title": "About Me",
-        "href": "/"
+    "computer-science-basics":"Computer Science Basics",
+    "- pl": {
+        "title": "🍀 Programming Languages",
+        "type": "separator"
     },
-    "daily": {
-        "type": "page",
-        "title": "Daily"
+    "programming-languages": "Programming Languages",
+    "- dp": {
+        "title": "⚙️ DevOps",
+        "type": "separator"
     },
-    "blog": {
-        "type": "page",
-        "title": "Blog"
-    }
+    "devops": "DevOps",
+    "- web": {
+        "title": "🛠️ Web Development",
+        "type": "separator"
+    },
+    "web-development": "Web Development"
 }

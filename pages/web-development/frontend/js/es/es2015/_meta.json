@@ -1,0 +1,7 @@
+{
+    "let": "let const var",
+    "this": "this",
+    "iife": "IIFE",
+    "closures": "Closures",
+    "prototype": "Prototype"
+}
