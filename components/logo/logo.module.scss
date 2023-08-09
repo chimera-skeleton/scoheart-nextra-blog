@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .logo {
+        border-radius: 32px;
+    }
+
+    h1 {
+        /* background: linear-gradient(to right, rgb(30, 150, 0), rgb(255, 242, 0), rgb(255, 0, 0)); */
+        /* background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192)); */
+        background: linear-gradient(to right, rgb(101, 78, 163), rgb(234, 175, 200));
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

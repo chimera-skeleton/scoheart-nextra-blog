@@ -12,7 +12,7 @@ export default function Logo(): ReactElement {
                 width={40}
                 height={40}
             ></Image>
-            <h1 className={style.title}>Heart ☘️ Sco</h1>
+            <h1>Heart ☘️ Sco</h1>
         </div >
     )
 }

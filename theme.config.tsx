@@ -1,6 +1,6 @@
 import React from 'react'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
-import Logo from './components/logo';
+import Logo from './components/logo/logo';
 import style from "./theme.module.css";
 
 const config: DocsThemeConfig = {
@@ -12,14 +12,14 @@ const config: DocsThemeConfig = {
     }
   },
   project: {
-    link: 'https://github.com/',
+    link: 'https://github.com/scoheart',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/scoheart',
   },
   banner: {
     dismissible: false,
-    key: '2.0-release',
+    key: '1',
     text: (
       <a href="https://github.com/scoheart" target="_blank">
         🎉 Scoheart Github. Read more →
@@ -49,15 +49,8 @@ const config: DocsThemeConfig = {
   },
   i18n: [
     { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '中文' },
-    { locale: 'de', text: 'Deutsch' },
-    { locale: 'ar', text: 'العربية', direction: 'rtl' }
+    { locale: 'zh', text: '中文' }
   ],
-  gitTimestamp: (
-    <>
-      <h1>demo</h1>
-    </>
-  ),
   docsRepositoryBase: 'https://github.com/scoheart',
   footer: {
     text: (
