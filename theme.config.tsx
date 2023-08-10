@@ -5,7 +5,11 @@ import style from "./theme.module.css";
 
 const config: DocsThemeConfig = {
   logo: (<Logo></Logo>),
-  primaryHue: 180,
+  docsRepositoryBase: 'https://github.com/chimera-skeleton/scoheart-nextra-blog/issues',
+  primaryHue: {
+      dark: 180,
+      light: 280
+  },
   useNextSeoProps() {
     return {
       titleTemplate: 'Scoheart Blog'
@@ -16,6 +20,9 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: 'https://discord.com/scoheart',
+  },
+  search: {
+    placeholder: "Search"
   },
   banner: {
     dismissible: false,
@@ -47,11 +54,16 @@ const config: DocsThemeConfig = {
   toc: {
     title: "🔗 Table Of Content"
   },
+  editLink: {
+    text: "Edit this Page on Github"
+  },
+  feedback: {
+    content: "Question? Give me Feedback"
+  },
   i18n: [
     { locale: 'en', text: 'English' },
     { locale: 'zh', text: '中文' }
   ],
-  docsRepositoryBase: 'https://github.com/scoheart',
   footer: {
     text: (
       <span>
