@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "note": "git add -A && git commit -m 'feat: add new posts'"
   },
   "repository": {
     "type": "git",
