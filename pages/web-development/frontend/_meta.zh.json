@@ -1,0 +1,11 @@
+{
+    "html": "HTML",
+    "css": "CSS",
+    "js": "JavaScript",
+    "js-runtime": "JavaScript Runtime",
+    "js-flavors": "JavaScript Flavors",
+    "js-package-manager": "JavaScript Package Manager",
+    "build-tools": "Build Tools",
+    "front-end-frameworks": "Front End Frameworks",
+    "other": "Other"
+}
