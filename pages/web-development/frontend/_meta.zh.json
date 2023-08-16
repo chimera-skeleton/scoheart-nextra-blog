@@ -2,10 +2,10 @@
     "html": "HTML",
     "css": "CSS",
     "js": "JavaScript",
-    "js-runtime": "JavaScript Runtime",
-    "js-flavors": "JavaScript Flavors",
-    "js-package-manager": "JavaScript Package Manager",
-    "build-tools": "Build Tools",
-    "front-end-frameworks": "Front End Frameworks",
-    "other": "Other"
+    "js-runtime": "JS运行环境",
+    "js-flavors": "JS扩展语言",
+    "js-package-manager": "JS包管理器",
+    "build-tools": "构建工具集",
+    "front-end-frameworks": "前端框架",
+    "other": "其他"
 }
