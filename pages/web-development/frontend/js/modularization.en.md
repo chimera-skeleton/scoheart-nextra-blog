@@ -6,13 +6,16 @@
 - 加法模块
 - 减法模块
 
+<hr>
+
+模块化方案的演进过程
 ## IIFE
 > 立即执行函数
 ## Namespace
 > 命名空间
 
-## IIFE & Closures
-> immediately invoked function expression & Closures 立即执行函数和闭包
+## Closures
+> 闭包
 
 ## CommonJS
 Nodejs这个runtime的横空出世，带来了Nodejs自己的模块化解决方案，CommonJS是一种模块化规范，用于在服务器端和本地环境中实现模块化编程。它主要用于Node.js环境。
