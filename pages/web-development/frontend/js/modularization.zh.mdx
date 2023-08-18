@@ -107,10 +107,24 @@ module.exports.age = 18
 #### commonjs特征
 - 每次加载模块之前都会运行该代码
 - 多处用到同样的模块，不会重复加载，有缓存机制
-- 同步加载，在服务端nodejs环境中从磁盘读取文件速度快，但是如果在浏览器环境中同步发起请求是不适用的
+- 同步加载，必须要根据路径加载完文件且执行完毕文件中的代码才完成导入，再执行后面的代码。在服务端nodejs环境中从磁盘读取文件速度快，但是如果在浏览器环境中是不适用的，因为浏览器需要发起请求，从服务器中请求js文件，而如果这种大量的请求操作都是同步执行的话，会严重影响网页交互体验。所以需要异步的方式。
 
 ---
->***那么Browser Runtime才是主流的JavaScript Runtime，所以社区形成了一些可行的针对于Browser Runtime的模块化方案***
+>***那么Browser Runtime才是主流的JavaScript Runtime，所以社区形成了一些可行的针对于Browser Runtime的模块化方案，他们都遵循下面两点***
+- 异步加载
+- 模块代码直接放在函数中
+
+AMD 是 RequireJS 在推广过程中对模块定义的规范化产出。
+
+CMD 是 SeaJS 在推广过程中对模块定义的规范化产出。
+
+上述两种规范是服务于JavaScript的模块化开发，目前两种都能实现浏览器端的模块化开发的目的，不同之处是CMD是懒执行,AMD是预执行。
+区别：
+
+对于依赖的模块，AMD 是提前执行，CMD 是延迟执行。不过 RequireJS 从 2.0 开始，也改成可以延迟执行（根据写法不同，处理方式不同）。CMD 推崇 as lazy as possible.
+
+CMD 推崇依赖就近，AMD 推崇依赖前置。
+
 
 ## AMD
 > Asynchronous Module Definition 异步模块定义
@@ -118,8 +132,20 @@ module.exports.age = 18
 AMD也是一种模块化规范，用于在浏览器环境中实现异步加载模块。它主要由RequireJS等库来支持。
 - RequireJS
 
+``` js
+define(['a'], function(a){
+  function fn(){
+    a()
+  }
+
+  return {
+    fn: fn
+  };
+});
+```
+
 ## [CMD](https://github.com/cmdjs/specification/blob/master/draft/module.md)
-> Common Module Definition 通用模块定义
+> Common Module Definition 公共模块定义
 
 CMD也是一种模块化规范，类似于AMD，但它更强调按需加载模块。SeaJS是一个支持CMD的库。
 - SeaJS
