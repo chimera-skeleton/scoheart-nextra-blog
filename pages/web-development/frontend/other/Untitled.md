@@ -66,6 +66,24 @@
     使用monorepo代码仓库
 
 
+工程化要求四：
+    测试工具
+    - jest
+    - vitest
+
+2/3
+
+
+搭建全栈
+
+node cli
+网页。   浏览器
+
+
+server 
+
+
+
 
 以rollup 举例
 
