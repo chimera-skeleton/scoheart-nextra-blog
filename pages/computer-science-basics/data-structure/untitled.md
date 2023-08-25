@@ -69,3 +69,18 @@
 ## 抽象数据类型
 就是给数据结构使用者看的，针对于数据结构的逻辑结构与数据运算，不用关系数据结构的物理结构。
 
+## JavaScript中的数据类型
+### 原子类型
+- string
+- number
+- boolean
+- bigint
+- symbol
+- null
+- undefined
+
+### 结构类型
+- object
+- array
+
+
