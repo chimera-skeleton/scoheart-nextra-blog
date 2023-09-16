@@ -1,0 +1,37 @@
+
+# react架构演进
+
+- 调度
+- 协调
+- 渲染
+
+# 虚拟DOM/DOM
+
+# JSX
+- babel
+
+React没用到，却要引用
+
+# reanct源码的三个包
+- react
+- react-dom
+- react-reconciler
+
+# 初始化渲染
+- 根据type创建DOM
+- 根据props.children处理子元素
+- 处理属性值
+
+
+jsxDev
+ 
+
+createRoot
+createcontainer
+	createFiberRoot
+		new FiberRootNode
+		createHostRootFiber
+			createFiber
+				new FiberNode
+					所有属性都在这里了 
+new ReactDOMRoot
