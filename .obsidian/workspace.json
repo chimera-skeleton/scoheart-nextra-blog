@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "d334f5c5323bbf57",
+    "type": "split",
+    "children": [
+      {
+        "id": "a62cf85812531a75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6cdab28f52dc91c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/面试/网络.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e397577b58b8634",
+    "type": "split",
+    "children": [
+      {
+        "id": "28e59ee77c80fc15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69183acc42e4384b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1f9b09abf149a6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60eb9707f77b1c73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39a8f36812368f65",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ad0fffb815152b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5979bf6ea04048be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/面试/网络.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1940a6d99ae39e4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/面试/网络.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8caabc59316c754b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d10552d9e4223f44",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/面试/网络.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b6cdab28f52dc91c",
+  "lastOpenFiles": [
+    "pages/面试/面试准备/自我介绍.md",
+    "pages/web-development/frontend/js-runtime/browser/browser.md",
+    "pages/web-development/frontend/js-runtime/browser/event-loop.md",
+    "pages/面试/网络.md",
+    "pages/面试/说一下HTTP缓存.md",
+    "pages/面试/面试准备/项目二axios/TCP相关.md",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js 2.map",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index 2.js",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js.map",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js.map",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader 2.js",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles 2.js",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js 2.map",
+    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js",
+    "node_modules/vfile-matter/node_modules/js-yaml/CHANGELOG 2.md",
+    "node_modules/vfile-matter/node_modules/js-yaml/README 2.md",
+    "node_modules/vfile-matter/node_modules/argparse/README 2.md",
+    "node_modules/vfile-matter/node_modules/argparse/CHANGELOG 2.md",
+    "node_modules/d3-dsv/node_modules/commander/CHANGELOG 2.md",
+    "node_modules/safer-buffer/Readme 2.md",
+    "node_modules/safer-buffer/Porting-Buffer 2.md",
+    "node_modules/scheduler/README 2.md",
+    "node_modules/loose-envify/README 2.md",
+    "node_modules/git-url-parse/README 2.md",
+    "node_modules/ms/license 2.md",
+    "node_modules/glob-to-regexp/README 2.md",
+    "node_modules/parse-path/README 2.md",
+    "node_modules/is-ssh/DOCUMENTATION 2.md",
+    "node_modules/watchpack/README 2.md",
+    "node_modules/to-regex-range/README 2.md",
+    "node_modules/slash/readme 2.md",
+    "node_modules/streamsearch/README 2.md",
+    "node_modules/yocto-queue/readme 2.md",
+    "node_modules/typescript/SECURITY 2.md",
+    "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
+    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
+    "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
+    "node_modules/cytoscape-fcose/demo/incrementalConstraints.gif",
+    "node_modules/cytoscape-fcose/demo/demo.gif",
+    "node_modules/cytoscape-fcose/demo/demo 2.gif",
+    "node_modules/non-layered-tidy-tree-layout/screenshots/1.png",
+    "node_modules/non-layered-tidy-tree-layout/screenshots/1 2.png",
+    "pages/computer-science-basics/computer-organization/Pasted image 20230821000422.png",
+    "node_modules/next-mdx-remote/header.png"
+  ]
+}

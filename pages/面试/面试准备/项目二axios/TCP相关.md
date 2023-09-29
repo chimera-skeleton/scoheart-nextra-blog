@@ -3,9 +3,6 @@
 1. seq = 1 
 2. ack = 1
 
-
-
-
 ## 流量控制
 #### rwnd
 Receiver window
