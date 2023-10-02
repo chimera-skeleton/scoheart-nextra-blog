@@ -146,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6cdab28f52dc91c",
+  "active": "69183acc42e4384b",
   "lastOpenFiles": [
+    "pages/desktop-application",
+    "pages/未命名文件夹",
+    "pages/Untitled",
+    "pages/web-development/frontend/front-end-frameworks/react/源码",
     "pages/面试/面试准备/自我介绍.md",
     "pages/web-development/frontend/js-runtime/browser/browser.md",
     "pages/web-development/frontend/js-runtime/browser/event-loop.md",
@@ -161,9 +165,6 @@
     "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
     "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js.map",
     "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader 2.js",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles 2.js",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js 2.map",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js",
     "node_modules/vfile-matter/node_modules/js-yaml/CHANGELOG 2.md",
     "node_modules/vfile-matter/node_modules/js-yaml/README 2.md",
     "node_modules/vfile-matter/node_modules/argparse/README 2.md",
@@ -183,7 +184,6 @@
     "node_modules/slash/readme 2.md",
     "node_modules/streamsearch/README 2.md",
     "node_modules/yocto-queue/readme 2.md",
-    "node_modules/typescript/SECURITY 2.md",
     "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
     "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
     "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
