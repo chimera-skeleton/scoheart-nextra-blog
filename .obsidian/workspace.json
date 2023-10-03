@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/面试/网络.md",
+                "file": "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/面试/网络.md",
+                "file": "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/面试/网络.md",
+                "file": "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/面试/网络.md"
+                "file": "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md"
               }
             }
           }
@@ -146,25 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69183acc42e4384b",
+  "active": "b6cdab28f52dc91c",
   "lastOpenFiles": [
+    "pages/computer-science-basics/computer-network/data-link-layer/滑动窗口、流量控制、可靠传输.md",
+    "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md",
+    "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP.md",
+    "pages/computer-science-basics/computer-network/data-link-layer",
+    "pages/computer-science-basics/computer-network/transport-layer/UDP",
+    "pages/computer-science-basics/computer-network/transport-layer/TCP",
+    "pages/computer-science-basics/computer-network/transport-layer",
+    "pages/computer-science-basics/computer-network/network.md",
+    "pages/other/面试/网络.md",
+    "pages/computer-science-basics/Untitled",
+    "pages/computer-science-basics/linux",
+    "pages/computer-science-basics/discrete-math",
+    "pages/computer-science-basics/compiler-principle",
+    "pages/other",
     "pages/desktop-application",
-    "pages/未命名文件夹",
-    "pages/Untitled",
-    "pages/web-development/frontend/front-end-frameworks/react/源码",
-    "pages/面试/面试准备/自我介绍.md",
+    "pages/other/面试/面试准备/自我介绍.md",
     "pages/web-development/frontend/js-runtime/browser/browser.md",
     "pages/web-development/frontend/js-runtime/browser/event-loop.md",
-    "pages/面试/网络.md",
-    "pages/面试/说一下HTTP缓存.md",
-    "pages/面试/面试准备/项目二axios/TCP相关.md",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js 2.map",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index 2.js",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js.map",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js.map",
-    "node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader 2.js",
+    "pages/other/面试/说一下HTTP缓存.md",
+    "pages/other/面试/面试准备/项目二axios/TCP相关.md",
     "node_modules/vfile-matter/node_modules/js-yaml/CHANGELOG 2.md",
     "node_modules/vfile-matter/node_modules/js-yaml/README 2.md",
     "node_modules/vfile-matter/node_modules/argparse/README 2.md",
@@ -181,9 +184,6 @@
     "node_modules/is-ssh/DOCUMENTATION 2.md",
     "node_modules/watchpack/README 2.md",
     "node_modules/to-regex-range/README 2.md",
-    "node_modules/slash/readme 2.md",
-    "node_modules/streamsearch/README 2.md",
-    "node_modules/yocto-queue/readme 2.md",
     "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
     "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
     "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
