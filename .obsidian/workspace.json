@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md"
+                "file": "pages/other/面试/面试准备/自我介绍.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "b6cdab28f52dc91c",
   "lastOpenFiles": [
-    "pages/other/面试/SSR SSG ISR CSR.md",
     "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md",
+    "pages/other/面试/SSR SSG ISR CSR.md",
     "pages/other/面试/了解哪些HTTP状态码.md",
     "pages/other/面试/简历.md",
     "pages/other/面试/type 和 interface的区别.md",
