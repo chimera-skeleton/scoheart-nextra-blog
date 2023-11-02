@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a62cf85812531a75",
+        "id": "7fa57d87ef436a45",
         "type": "tabs",
         "children": [
           {
-            "id": "b6cdab28f52dc91c",
+            "id": "06158231e79dc862",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/other/面试/面试准备/自我介绍.md",
+                "file": "pages/other/Figma插件/API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ca8b9cf009b2f1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/other/环境配置/MacOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "39a8f36812368f65",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/other/面试/面试准备/自我介绍.md",
+                "file": "pages/other/Figma插件/API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/other/面试/面试准备/自我介绍.md",
+                "file": "pages/other/Figma插件/API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/other/面试/面试准备/自我介绍.md"
+                "file": "pages/other/Figma插件/API.md"
               }
             }
           }
@@ -146,8 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6cdab28f52dc91c",
+  "active": "06158231e79dc862",
   "lastOpenFiles": [
+    "pages/other/环境配置/MacOS.md",
+    "pages/other/Figma插件/API.md",
+    "pages/other/Figma插件",
+    "2023-11-02.md",
+    "2023-11-01.md",
+    "pages/other/环境配置/Nodejs.md",
+    "pages/other/环境配置/Java Development Kit.md",
+    "pages/other/环境配置",
+    "pages/other/面试/面试准备/自我介绍.md",
+    "2023-10-31.md",
     "pages/computer-science-basics/data-structure/code/linked-list.md",
     "pages/computer-science-basics/data-structure/code/link-list.md",
     "pages/computer-science-basics/data-structure/code/Untitled.md",
@@ -169,21 +192,11 @@
     "pages/other/面试/网络.md",
     "pages/computer-science-basics/Untitled",
     "pages/computer-science-basics/linux",
-    "pages/computer-science-basics/discrete-math",
-    "pages/computer-science-basics/compiler-principle",
-    "pages/other/面试/面试准备/自我介绍.md",
     "pages/web-development/frontend/js-runtime/browser/browser.md",
     "pages/web-development/frontend/js-runtime/browser/event-loop.md",
     "pages/other/面试/说一下HTTP缓存.md",
     "pages/other/面试/面试准备/项目二axios/TCP相关.md",
     "node_modules/vfile-matter/node_modules/js-yaml/CHANGELOG 2.md",
-    "node_modules/vfile-matter/node_modules/js-yaml/README 2.md",
-    "node_modules/vfile-matter/node_modules/argparse/README 2.md",
-    "node_modules/vfile-matter/node_modules/argparse/CHANGELOG 2.md",
-    "node_modules/d3-dsv/node_modules/commander/CHANGELOG 2.md",
-    "node_modules/safer-buffer/Readme 2.md",
-    "node_modules/safer-buffer/Porting-Buffer 2.md",
-    "node_modules/scheduler/README 2.md",
     "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
     "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
     "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
