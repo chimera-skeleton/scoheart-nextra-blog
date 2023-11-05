@@ -11,8 +11,12 @@
             "id": "ee3d889039040013",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/other/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/other/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/other/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/other/Untitled.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69183acc42e4384b",
+  "active": "ee3d889039040013",
   "lastOpenFiles": [
+    "pages/other/Untitled.md",
     "pages/other/Figma插件/API.md",
     "pages/other/环境配置/MacOS.md",
     "pages/other/Figma插件",
@@ -175,7 +184,6 @@
     "pages/web-development/frontend/js-runtime/browser/event-loop.md",
     "pages/other/面试/说一下HTTP缓存.md",
     "pages/other/面试/面试准备/项目二axios/TCP相关.md",
-    "node_modules/vfile-matter/node_modules/js-yaml/CHANGELOG 2.md",
     "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
     "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
     "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
