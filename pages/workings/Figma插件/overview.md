@@ -11,7 +11,7 @@ Fimga的开发模式还在测试阶段，这个开发模式帮助我们更好的
 1. 点击</>按钮切换
 2. Shift + D快捷键切换
 
-### Figma插件与模式
+### Figma插件与开发模式
 
 ## 实现一个Figma插件
 Figma插件主要的实现技术栈就是Web开发三件套
@@ -86,3 +86,11 @@ Components Library：给开发者提供的开箱即用的Web前端UI组件库
 最终方案：根据Semi Design给出的一些文档，他们最终的方案是F/A方案（体会他们的意思就是说Web Components迟早会走向成熟，没必要自己在完全构建出一套新的方案去做这件事情，那么当Web Components成熟之日，又可能需要重写一遍组件逻辑，这是没有必要的重复工作，所以现阶段就高度的去抽象逻辑，提供更好的跨框架支持）
 - F：Foundation
 - A：Adapter
+
+F/A方案将一个组件划分为两个部分
+- Foundation 包括最能代码组件的交互逻辑
+- Adapter    一个接口，具有Foundation实现业务逻辑的所有方法，同时负责组件：DOM的结构、组件状态、事件处理
+    - DOM
+    - Components State
+    - Event Handler
+
