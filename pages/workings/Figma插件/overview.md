@@ -33,11 +33,11 @@ D2C指的是Design To Code设计稿转代码，我们输入的上下文是Figma�
 
 ### 研发思路
 C2D2C：代码 --》 设计稿 --〉代码
-Semi Design示例：Semi Design UI Kit --》 Figma 设计稿 --〉React（css/Tailwind/Emotion）、HTML + 
-CSS
+Semi Design示例：Semi Design UI Kit --》 Figma 设计稿 --〉React（css/Tailwind/Emotion）、HTML + CSS
 
 UI Kit：适应设计师的使用习惯，同时能更好适配导出的代码
 Figma Plugin：帮助开发者更快的实现UI的代码实现，同时更好的适配设计稿的还原
+Components Library：给开发者能够直接使用的UI组件库
 
 ### 使用思路（Semi Design的三大场景）
 前提：基于已经开发完成的Figma D2C插件
