@@ -1,0 +1,3 @@
+# TS Config
+
+ts
