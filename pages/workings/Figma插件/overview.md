@@ -73,11 +73,12 @@ Components Library：给开发者提供的开箱即用的Web前端UI组件库
 - jest实现代码测试
 
 ### Semi Design
-字节跳动的抖音前端团队的Semi Design亦有这样的功能
-详细情况还在调研中……
-[抖音团队的Semi D2C演进之路](https://juejin.cn/post/7267418854124699702)
+> 字节跳动的抖音前端团队的Semi Design亦有这样的功能, 调研中……
 
-#### Semi Design 设计系统打造技术选型
+[抖音团队的Semi D2C演进之路](https://juejin.cn/post/7267418854124699702)
+[Semi Design的质量保障 -- 组件库测试技术](https://medium.com/front-end-weekly/how-we-test-semi-design-component-libraries-64b854f63b65)
+
+#### Semi Design的设计系统打造
 > Web Components
 
 优势：最原生的组件化开发方式，在打造组件库的方向上，是具备天然的优势的，可以担任lib的角色，被上层应用框架来消费
@@ -94,3 +95,5 @@ F/A方案将一个组件划分为两个部分
     - Components State
     - Event Handler
 
+#### Semi Design的开发技术选型
+- 
