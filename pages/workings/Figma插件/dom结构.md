@@ -28,7 +28,7 @@ graph RL;
 
 ## Figma Data Types
 
-```mermaid
+```mermaid   
 graph RL;
     PageNode --> DocumentNode
 ```
