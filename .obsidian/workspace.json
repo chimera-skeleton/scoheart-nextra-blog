@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/other/Untitled.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/other/Untitled.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/other/Untitled.md",
+                "file": "pages/other/面试/面试准备/自我介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/other/Untitled.md"
+                "file": "pages/other/面试/面试准备/自我介绍.md"
               }
             }
           }
@@ -148,51 +148,51 @@
   },
   "active": "ee3d889039040013",
   "lastOpenFiles": [
+    "pages/workings/vscode/image.png",
+    "pages/workings/vscode插件.md",
+    "pages/workings/vscode/vscode插件.md",
+    "pages/workings/vscode",
+    "pages/workings/image.png",
+    "pages/other/面试/面试准备/自我介绍.md",
+    "pages/workings/工作小记/备忘手册.md",
+    "pages/workings/other/问题.md",
+    "pages/workings/other/react路由.md",
+    "pages/workings/Figma插件/插件开发流程.md",
+    "pages/workings/Figma插件/思考.md",
+    "pages/workings/Figma插件/storybook+tailwind+vite开发组件库.md",
+    "pages/workings/Figma插件/overview.md",
+    "pages/workings/Figma插件/dom结构.md",
+    "pages/workings/工作小记",
+    "pages/workings/other",
+    "pages/workings/Figma插件",
+    "pages/workings",
+    "pages/other/version-control/git/overview.md",
+    "pages/other/version-control/git",
+    "pages/other/version-control",
+    "pages/code/demo/AwesomeProject3/android/app/src/release/java/com/awesomeproject3/ReactNativeFlipper.java",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/java/com/awesomeproject3/MainApplication.java",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/java/com/awesomeproject3/MainActivity.java",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "pages/code/demo/AwesomeProject3/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+    "pages/code/figma-plugins/p3/README.md",
+    "pages/code/demo/AwesomeProject3/README.md",
+    "pages/code/demo/AwesomeProject2/README.md",
+    "pages/code/demo/AwesomeProject/README.md",
     "pages/other/Untitled.md",
     "pages/other/Figma插件/API.md",
     "pages/other/环境配置/MacOS.md",
-    "pages/other/Figma插件",
     "2023-11-02.md",
     "2023-11-01.md",
     "pages/other/环境配置/Nodejs.md",
     "pages/other/环境配置/Java Development Kit.md",
-    "pages/other/环境配置",
-    "pages/other/面试/面试准备/自我介绍.md",
     "2023-10-31.md",
-    "pages/computer-science-basics/data-structure/code/linked-list.md",
-    "pages/computer-science-basics/data-structure/code/link-list.md",
-    "pages/computer-science-basics/data-structure/code/Untitled.md",
-    "pages/computer-science-basics/data-structure/code",
-    "pages/computer-science-basics/data-structure/Untitled",
-    "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP Core Semantic.md",
-    "pages/other/面试/SSR SSG ISR CSR.md",
-    "pages/other/面试/了解哪些HTTP状态码.md",
-    "pages/other/面试/简历.md",
-    "pages/other/面试/type 和 interface的区别.md",
-    "pages/computer-science-basics/computer-network/data-link-layer/Stop-and-Wait 停止等待协议.md",
-    "pages/computer-science-basics/computer-network/data-link-layer/滑动窗口、流量控制、可靠传输.md",
-    "pages/computer-science-basics/computer-network/application-layer/HTTP/HTTP.md",
-    "pages/computer-science-basics/computer-network/data-link-layer",
-    "pages/computer-science-basics/computer-network/transport-layer/UDP",
-    "pages/computer-science-basics/computer-network/transport-layer/TCP",
-    "pages/computer-science-basics/computer-network/transport-layer",
-    "pages/computer-science-basics/computer-network/network.md",
-    "pages/other/面试/网络.md",
-    "pages/computer-science-basics/Untitled",
-    "pages/computer-science-basics/linux",
-    "pages/web-development/frontend/js-runtime/browser/browser.md",
-    "pages/web-development/frontend/js-runtime/browser/event-loop.md",
-    "pages/other/面试/说一下HTTP缓存.md",
-    "pages/other/面试/面试准备/项目二axios/TCP相关.md",
-    "pages/web-development/frontend/js-runtime/browser/Pasted image 20230731151756.png",
-    "node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
-    "node_modules/cytoscape-fcose/demo/incrementalConstraints 2.gif",
-    "node_modules/cytoscape-fcose/demo/incrementalConstraints.gif",
-    "node_modules/cytoscape-fcose/demo/demo.gif",
-    "node_modules/cytoscape-fcose/demo/demo 2.gif",
-    "node_modules/non-layered-tidy-tree-layout/screenshots/1.png",
-    "node_modules/non-layered-tidy-tree-layout/screenshots/1 2.png",
-    "pages/computer-science-basics/computer-organization/Pasted image 20230821000422.png",
-    "node_modules/next-mdx-remote/header.png"
+    "pages/computer-science-basics/data-structure/code/linked-list.md"
   ]
 }
