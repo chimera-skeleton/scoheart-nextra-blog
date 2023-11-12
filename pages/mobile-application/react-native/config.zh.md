@@ -2,6 +2,8 @@
 
 下面将 React Native 统一简称为 RN
 
+[官方文档地址](https://reactnative.dev/docs/environment-setup)
+
 ## 保证你的电脑可以科学上网
 
 ### 科学上网的协议
