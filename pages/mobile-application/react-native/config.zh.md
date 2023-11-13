@@ -116,7 +116,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 ```shell
 # 全局安装脚手架，后面就可以直接通过react-native init命令来初始化项目
-npm install react-natvie -g
+npm install react-native -g
 react-natvie init yourAppName
 
 # npx等命令安装脚手架且执行脚手架init命令初始化项目
