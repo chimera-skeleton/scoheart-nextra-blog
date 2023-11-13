@@ -46,11 +46,19 @@ npm install @react-navigation/drawer react-native-gesture-handler react-native-r
 
 - @react-navigation/bottom-tabs
 
+```shell
+npm install @react-navigation/bottom-tabs
+```
+
 ##### material-bottom-tabs
 
 - @react-navigation/material-bottom-tabs
 - react-native-paper
 - react-native-vector-icons
+
+```shell
+npm install @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
+```
 
 #### 顶部导航
 
@@ -58,4 +66,7 @@ npm install @react-navigation/drawer react-native-gesture-handler react-native-r
 - react-native-tab-view
 - react-native-pager-view
 
+```shell
+npm install @react-navigation/material-top-tabs react-native-tab-view react-native-pager-view
+```
 ## 示例代码
