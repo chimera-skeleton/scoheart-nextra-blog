@@ -14,61 +14,48 @@
 
 ## 下载 npm 包
 
-我们使用的是 React Navigation，所以需要下载以下包：
+我们使用的是 React Navigation 这个库，所以可以根据需要下载以下的 npm 包：
+
+### 基础路由包
 
 - @react-navigation/native
+
+### 上层路由包
+
 - react-native-screens
 - react-native-safe-area-context
+
+#### 路由栈
+
 - @react-navigation/native-stack
+- @react-navigation/stack
+
+### 侧边栏
+
+- @react-navigation/drawer
+- react-native-gesture-handler
+- react-native-reanimated
 
 ```shell
-npm install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context
+npm install @react-navigation/drawer react-native-gesture-handler react-native-reanimated
 ```
+
+#### 底部导航
+
+##### bottom-tabs
+
+- @react-navigation/bottom-tabs
+
+##### material-bottom-tabs
+
+- @react-navigation/material-bottom-tabs
+- react-native-paper
+- react-native-vector-icons
+
+#### 顶部导航
+
+- @react-navigation/material-top-tabs
+- react-native-tab-view
+- react-native-pager-view
 
 ## 示例代码
-
-``` tsx
-// In App.js in a new project
-
-import * as React from "react";
-import { View, Text, Button } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { useNavigation } from "@react-navigation/native";
-
-//@ts-ignore
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Home Screen</Text>
-      <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate("Details")}
-      />
-    </View>
-  );
-}
-
-function DetailsScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Details Screen</Text>
-    </View>
-  );
-}
-
-const Stack = createNativeStackNavigator();
-
-function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
-
-export default App;
-```
