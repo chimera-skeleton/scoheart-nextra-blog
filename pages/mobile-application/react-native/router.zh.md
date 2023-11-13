@@ -156,10 +156,81 @@ Screen 是一个路由页面，可以包含多个 Screen。
 - opitons 路由配置
   - title 路由标题
 
-一个高级用法传递props：
+一个高级用法传递 props：
 
 ```tsx
 <Stack.Screen name="Home">
   {(props) => <HomeScreen {...props} extraData={someData} />}
 </Stack.Screen>
+```
+
+### 如何实现路由跳转
+
+每一个 Screeen 都会被传递 navigation 这个 props，通过 navgation 上的一些方法可以跳转到其他页面。
+
+- navgation.navigate(name) 跳转到指定页面
+- navgation.goBack() 返回上一页
+- navgation.push(name) 跳转到指定页面，并入栈
+
+```tsx
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Button, Text } from "react-native";
+
+const NativeStack = createNativeStackNavigator();
+const { Screen, Navigator } = NativeStack;
+
+//@ts-ignore
+function Page1({ navigation }): JSX.Element {
+  return (
+    <>
+      <Text>Page1</Text>
+      <Button
+        title="跳转到Page2"
+        onPress={() => {
+          navigation.navigate("Page2");
+        }}
+      ></Button>
+    </>
+  );
+}
+
+//@ts-ignore
+function Page2({ navigation }): JSX.Element {
+  return (
+    <>
+      <Text>Page2</Text>
+      <Button
+        title="跳转到Page1"
+        onPress={() => {
+          navigation.navigate("Page1");
+        }}
+      ></Button>
+    </>
+  );
+}
+
+const App: React.FC = () => {
+  return (
+    <>
+      <NavigationContainer>
+        <Navigator initialRouteName="Page1">
+          <Screen
+            name="Page1"
+            component={Page1}
+            options={{ title: "这是第一个界面" }}
+          />
+          <Screen
+            name="Page2"
+            component={Page2}
+            options={{ title: "这是第二个界面" }}
+          />
+        </Navigator>
+      </NavigationContainer>
+    </>
+  );
+};
+
+export default App;
 ```
