@@ -19,16 +19,22 @@
 ### 基础路由包
 
 - @react-navigation/native
-
-### 上层路由包
-
 - react-native-screens
 - react-native-safe-area-context
 
+### 上层路由包
+
 #### 路由栈
 
-- @react-navigation/native-stack
+##### Stack
+
 - @react-navigation/stack
+- react-native-gesture-handler
+- @react-native-masked-view/masked-view
+
+##### Native Stack
+
+- @react-navigation/native-stack
 
 ### 侧边栏
 
@@ -69,4 +75,5 @@ npm install @react-navigation/material-bottom-tabs react-native-paper react-nati
 ```shell
 npm install @react-navigation/material-top-tabs react-native-tab-view react-native-pager-view
 ```
+
 ## 示例代码
