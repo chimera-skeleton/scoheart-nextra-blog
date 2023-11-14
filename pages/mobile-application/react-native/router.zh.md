@@ -18,6 +18,8 @@
 
 ### 基础路由包
 
+这是必须要下载的的包，因为后面所有的路由都需要依赖它。
+
 - @react-navigation/native 这个包依赖后面两个包
 - react-native-screens
 - react-native-safe-area-context
@@ -25,6 +27,8 @@
 ### 上层路由包
 
 #### 路由栈
+
+路由栈的话，选择一个即可，因为它们都是基于 @react-navigation/native 这个包。
 
 ##### Stack
 
@@ -47,6 +51,8 @@ npm install @react-navigation/drawer react-native-gesture-handler react-native-r
 ```
 
 #### 底部导航
+
+底部导航有两种，一种是 material-bottom-tabs，另一种是 bottom-tabs。任选其一即可。
 
 ##### bottom-tabs
 
@@ -166,11 +172,13 @@ Screen 是一个路由页面，可以包含多个 Screen。
 
 ### 如何实现路由跳转
 
-每一个 Screeen 都会被传递 navigation 这个 props，通过 navgation 上的一些方法可以跳转到其他页面。
+每一个 Screeen 都会被传递 navigation 这个 props，通过 navgation 上的一些方法可以跳转到其他页面。路由细节类似于 Android 的 Activity 的启动模式。
 
 - navgation.navigate(name) 跳转到指定页面
 - navgation.goBack() 返回上一页
 - navgation.push(name) 跳转到指定页面，并入栈
+- navgation.pop() 返回上一页，并出栈
+- navgation.popToTop() 返回首页，并出栈
 
 ```tsx
 import React from "react";
