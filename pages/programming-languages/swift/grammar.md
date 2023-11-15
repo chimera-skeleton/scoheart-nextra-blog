@@ -1,4 +1,5 @@
-# Grammar
+# Swift
+Swift是一门编译型语言。
 
 ## 小思考
 ### 两种执行方式
@@ -20,5 +21,4 @@ struct Person {
     var name = "shuhao"
     var age =  18
 }
-
 ```

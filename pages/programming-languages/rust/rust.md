@@ -1,4 +1,9 @@
 # Rust
+Rust是一门编译型语言。
+```shell
+rustc hello.rs
+./hello
+```
 
 ## 安装rust
 ```shell
