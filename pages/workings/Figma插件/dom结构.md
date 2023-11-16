@@ -17,6 +17,8 @@ graph RL;
     HTMLElement --> Element
     SVGElement --> Element
 
+    HTMLDivElement --> HTMLElement
+
 ```
 
 ### docs
