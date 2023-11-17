@@ -98,6 +98,18 @@ module.exports = {
 };
 ```
 
+### extensions
+
+配置文件后缀名
+
+```js
+module.exports = {
+  resolve: {
+    extensions: [".js", ".ts", ".tsx", ".jsx"],
+  },
+};
+```
+
 ## manifest
 
 一个项目中可能包括三类代码
