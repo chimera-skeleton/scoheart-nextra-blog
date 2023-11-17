@@ -98,6 +98,19 @@ module.exports = {
 };
 ```
 
+> notes: 如果配合 TS 使用，则需要在 tsconfig.json 中配置 comilerOptions.baseUrl 和 comilerOptions.paths
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  }
+}
+```
+
 ### extensions
 
 配置文件后缀名
