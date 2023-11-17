@@ -81,6 +81,16 @@ module.exports = {
 
 ## loader
 
+### ts-loader
+
+### css-loader
+
+用来解析 CSS 文件
+
+### style-loader
+
+用来将 CSS 插入到 HTML 中
+
 ## resolve
 
 ### alias
