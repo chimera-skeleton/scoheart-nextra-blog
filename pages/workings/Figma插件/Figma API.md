@@ -2,9 +2,55 @@
 
 ## figma
 
+### figma.ui
+
+### figma.root
+
 ### figma.currentPage
 
 获取当前页面
+
+### figma.mode
+
+- default
+- codegen
+- inspect
+
+### figma.editorType
+
+- figma
+- figJam
+- dev
+
+当 figma.editorType 为 figma 时候，打开插件的时候是 figma.mode = default，此时 figma.showUI()会展示插件的 UI 在 figma 的画布上
+
+当 figma.editorType 为 dev 时候，打开插件的时候是 figma.mode = inspect，此时 figma.showUI()会展示插件的 UI 在 figma 的开发模式中的 inspect 上
+
+以上两种情况可以考虑公用一套 UI 布局
+
+而当 figma.editorType 为 dev 时候，打开插件的时候是 figma.mode = codegen，此时不再需要 UI 的展示，直接通过 figma 在 dev mode 下面中的 UI 交互，来生成代码即可
+
+### figma.on
+
+```js
+declare type ArgFreeEventType =
+  | 'selectionchange'
+  | 'currentpagechange'
+  | 'close'
+  | 'timerstart'
+  | 'timerstop'
+  | 'timerpause'
+  | 'timerresume'
+  | 'timeradjust'
+  | 'timerdone'
+
+on(type: ArgFreeEventType, callback: () => void): void
+```
+
+## Global Objects
+
+- \_\_html\_\_
+- \_\_uiFiles\_\_
 
 ## Node
 
