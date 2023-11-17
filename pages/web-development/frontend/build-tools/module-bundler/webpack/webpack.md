@@ -10,6 +10,37 @@
 
 ## cli
 
+## mode
+
+```js
+mode?: "none" | "development" | "production";
+```
+
+可以通过 CLI 或者 配置文件中的 mode 来指定打包模式，如果没有通过 CLI 和 Config 指定，则会使用 process.env.NODE_ENV（即环境变量 NODE_ENV）的值
+
+```js
+const process = require("process");
+process.env.NODE_ENV = "production";
+```
+
+则配置顺序为：
+
+- cli
+- config
+- env
+
+### development
+
+启用模块名，chunk 名
+
+### production
+
+压缩代码，去除注释等
+
+### none
+
+不开启任何优化选型
+
 ## entry
 
 ```js
@@ -25,16 +56,20 @@ declare interface EntryObject {
 ```
 
 ### 单入口打包
-默认输出一个main.js打包文件
+
+默认输出一个 main.js 打包文件
+
 ```js
 // webpack.config.js
 module.exports = {
-  entry: ".path/xxx.js", // 入口文件
+  entry: "./path/xxx.js", // 入口文件
 };
 ```
 
 ### 多入口打包
-如果传递的是一个对象，那么对象的key会是每一个chunk的名称，value是入口文件的路径。
+
+如果传递的是一个对象，那么对象的 key 会是每一个 chunk 的名称，value 是入口文件的路径。
+
 ```js
 module.exports = {
   entry: {
@@ -45,3 +80,28 @@ module.exports = {
 ```
 
 ## loader
+
+## resolve
+
+### alias
+
+配置路径的别名
+
+```js
+const path = require("path");
+module.exports = {
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
+};
+```
+
+## manifest
+
+一个项目中可能包括三类代码
+
+- 你自己写的源代码
+- 第三方库等依赖代码
+- webpack 的 runtime 和 mianifest
