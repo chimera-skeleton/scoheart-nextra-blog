@@ -24,6 +24,10 @@
 - react-native-screens
 - react-native-safe-area-context
 
+```shell
+npm isntall @react-navigation/native react-native-screens react-native-safe-area-context
+```
+
 ### 上层路由包
 
 #### 路由栈
