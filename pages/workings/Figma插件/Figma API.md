@@ -54,6 +54,91 @@ on(type: ArgFreeEventType, callback: () => void): void
 
 ## Node
 
+跟样式相关的属性
+- 大小
+  - width
+  - height
+- 盒子模型
+  - paddingTop
+  - paddingRight
+  - paddingBottom
+  - paddingLeft
+- flex布局
+  - layoutMode 
+  - itemSpacing - gap
+- 背景色
+  - background
+  - fills
+
+
+
+
+### node.type
+```ts
+type BaseNode =
+  DocumentNode |
+  PageNode |
+  SceneNode
+
+type SceneNode =
+  BooleanOperationNode |
+  CodeBlockNode |
+  ComponentNode |
+  ComponentSetNode |
+  ConnectorNode |
+  EllipseNode |
+  EmbedNode |
+  FrameNode |
+  GroupNode |
+  InstanceNode |
+  LineNode |
+  LinkUnfurlNode |
+  MediaNode |
+  PolygonNode |
+  RectangleNode |
+  SectionNode |
+  ShapeWithTextNode |
+  SliceNode |
+  StampNode |
+  StarNode |
+  StickyNode |
+  TableNode |
+  TableCellNode |
+  TextNode |
+  VectorNode |
+  WidgetNode |
+  MediaNode
+
+type NodeType =
+  "BOOLEAN_OPERATION" |
+  "CODE_BLOCK" |
+  "COMPONENT" |
+  "COMPONENT_SET" |
+  "CONNECTOR" |
+  "DOCUMENT" |
+  "ELLIPSE" |
+  "EMBED" |
+  "FRAME" |
+  "GROUP" |
+  "INSTANCE" |
+  "LINE" |
+  "LINK_UNFURL" |
+  "MEDIA" |
+  "PAGE" |
+  "POLYGON" |
+  "RECTANGLE" |
+  "SHAPE_WITH_TEXT" |
+  "SLICE" |
+  "STAMP" |
+  "STAR" |
+  "STICKY" |
+  "TABLE" |
+  "TABLE_CELL" |
+  "TEXT" |
+  "VECTOR" |
+  "WIDGET"
+```
+
 ### node.exportAsync
 
 ```ts
