@@ -46,3 +46,13 @@ cmake --build ./build
 cmake -S hermes -B build_release -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build ./build_release
 ```
+
+## 运行
+
+```shell
+# 开启REPL
+./build/bin/hermes
+
+# 运行文件
+./build/bin/hermes test.js
+```
