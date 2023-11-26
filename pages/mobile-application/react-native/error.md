@@ -32,3 +32,8 @@ info Run CLI with --verbose flag for more details.
 ```shell
 Invariant Violation: requireNativeComponent: "RNSScreenStackHeaderConfig" was not found in the UIManager.
 ```
+
+下载一些其他的包，没有重新构建
+```shell
+ERROR  Invariant Violation: requireNativeComponent: "RNCAndroidDialogPicker" was not found in the UIManager.
+```
