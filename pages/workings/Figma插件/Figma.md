@@ -17,19 +17,17 @@
 
 解释：在 Figma 提供的 Node Type 中，能与 DOM 中 Node Type 中的 HTMLDivElement 能做好规则映射的目前来看只有 FrameNode，其他图形元素如 RectangleNode 等，由于在 Figma 的 Node type 中无法获取例如 children 等属性，故在 DOM 中无法比较好的映射到 HTMLDivElement。
 
-简而言之：非 FrameNode 无法映射到 HTMLDivElement。
-
 ## ComponentNode
 
 在 Figma 设计稿中，如果出现大量的重复的元素，那么就应该考虑使用 Component（即 ComponentNode）。将重复的元素抽离成 Component，然后在需要的地方实例化使用 Component。
 
-### ComponentSetNode
-
-在 Figma 中，如果存在大量重复的 Component，那么就应该考虑使用 ComponentSet（即 ComponentSetNode）。将 Component 以及其不同的 Variant 放在一起构成 ComponentSet。
-
 ### Variant
 
 在 Figma 中，如果存在多个 Component 的不同形态，那么就应该考虑使用 Variant， 通过 Variant 的方式实现一个组件的不同展示方式。将不同的 Variant 放在同一个 ComponentSet。
+
+### ComponentSetNode
+
+将 Component 以及其不同的 Variant 放在一起构成 ComponentSet。
 
 ### InstanceNode
 
@@ -39,7 +37,7 @@
 
 在 Figma 中，如果需要使用一维度的响应式布局，那么就应该使用 auto layout。
 
-解释：方便影射于 CSS 中的 flex 一维布局。
+解释：方便映射于 CSS 等样式布局中的一维布局。
 
 ### assets
 
@@ -54,3 +52,15 @@ Figma 可以将 Color Font Raduis 等作为变量预定义，来确保可重用�
 ### variable Collection
 
 如果设置了很多 Variable 变量，那么应该有条理的封装分类
+
+# 规范
+- 所有用来布局的元素都要使用 FrameNode
+- 所有的非FrameNode的元素都需要用一个FrameNode包裹
+- 使用线条、图形元素构建图标的时候，一定要放在一个FrameNode中
+
+
+
+![Alt text](image-2.png)![Alt text](image.png)
+
+
+![Alt text](image-4.png)![Alt text](image-3.png)
