@@ -39,6 +39,13 @@ zero-client 架构，所有的页面都是「动态的」。在客户端每次�
 
 这种网站是 client-server 架构，最开始接受请求后，服务器返回一个 html 页面，然后通过 javascript 渲染出页面，然后通过浏览器渲染。
 
+### Client side rendering
+
+- 获取一个 只有一个 div 的 html 页面
+- 获取js 文件
+  - 渲染UI
+  - 发送数据请求
+
 ## 相关
 
 ### 文章
