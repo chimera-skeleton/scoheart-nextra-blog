@@ -1,0 +1,43 @@
+{
+  "index": {
+    "title": "首页",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "- cs": {
+    "title": "计算机基础",
+    "type": "separator"
+  },
+  "computer-science-basics": "计算机基础",
+  "- pl": {
+    "title": "编程语言学习",
+    "type": "separator"
+  },
+  "programming-languages": "编程语言学习",
+  "- dp": {
+    "title": "运维测试部署",
+    "type": "separator"
+  },
+  "devops": "运维测试部署",
+  "- web": {
+    "title": "网站开发",
+    "type": "separator"
+  },
+  "web-development": "网站开发",
+  "- mobile": {
+    "title": "移动开发",
+    "type": "separator"
+  },
+  "mobile-application": "移动开发",
+  "- other": {
+    "title": "其他",
+    "type": "separator"
+  },
+  "other": "其他"
+}

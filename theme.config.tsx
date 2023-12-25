@@ -60,10 +60,10 @@ const config: DocsThemeConfig = {
   feedback: {
     content: "Question? Give me Feedback"
   },
-  i18n: [
-    { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '中文' }
-  ],
+  // i18n: [
+  //   { locale: 'en', text: 'English' },
+  //   { locale: 'zh', text: '中文' }
+  // ],
   footer: {
     text: (
       <span>

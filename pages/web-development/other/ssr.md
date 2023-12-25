@@ -50,8 +50,9 @@ zero-client 架构，所有的页面都是「动态的」。在客户端每次�
 
 ### 文章
 
-| article            | link                                                      |
-| ------------------ | --------------------------------------------------------- |
-| Rendering Patterns | https://mburakerman.github.io/blog/web-rendering-patterns |
+| article            | link                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------ |
+| Rendering Patterns | https://mburakerman.github.io/blog/web-rendering-patterns                                              |
+|                    | https://dev.to/this-is-learning/patterns-for-building-javascript-websites-in-2022-5a93?ref=neonpie.xyz |
 
 ### 短语
