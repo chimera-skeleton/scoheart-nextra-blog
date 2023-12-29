@@ -24,10 +24,22 @@ source <env_name>/bin/activate
 
 ## 安装依赖
 
+在虚拟环境中安装依赖包，也可以使用 pip 命令。下载的包会保存在虚拟环境目录下的 `lib/python3.x/site-packages` 文件夹中。
+
 ```shell
 # Unix/Unix-like OS
 pip3 install <package_name>
 
 # Windows
 pip install <package_name>
+```
+
+## 退出虚拟环境
+
+```shell
+# Unix/Unix-like OS
+deactivate
+
+# Windows
+deactivate
 ```
