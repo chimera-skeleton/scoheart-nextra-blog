@@ -1,9 +1,11 @@
 {
-    "data-structure": "Data Structure",
-    "algorithm": "Algorithm",
-    "computer-network": "Computer Network",
-    "operating-system": "Operating System",
-    "computer-organization": "Computer Organization",
-    "discrete-mathematics": "Discrete Mathematics",
-    "compiler-principle": "Compiler Principle"
+  "algorithm": "Algorithm",
+  "computer-network": "Computer Network",
+  "computer-organization": "Computer Organization",
+  "compiler-principle": "Compiler Principle",
+  "discrete-mathematics": "Discrete Mathematics",
+  "data-structure": "Data Structure",
+  "database": "Database",
+  "linux": "Linux",
+  "operating-system": "Operating System"
 }
