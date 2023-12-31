@@ -2,7 +2,7 @@
 
 使用 nodejs 处理 http 请求和响应
 
-## 创建 http 服务器
+## 创建 HTTP 服务器
 
 ```js
 const http = require('http');
