@@ -165,3 +165,30 @@ http
   })
   .listen(8080);
 ```
+
+## 总览
+
+见微知著，其实不管是前端传递数据，还是后端接收数据，如果基于 HTTP 协议那么都只有三个地方
+
+- start-line
+- field-line
+- message-body
+
+### 与 start-line 相关的数据
+
+这部分数据传递通常被人们划分为两种
+
+- 查询参数 query parameters
+- 路径参数 path parameters
+
+### 与 field-line 相关的数据
+
+这部分携带在请求头中，通常只是头信息，不做数据传递
+
+### 与 message-body 相关的数据
+
+这部分数据都是基于 MIME type 进行传递的，比如常见的
+
+- application/json
+- multipart/form-data
+- multipart/x-www-form-urlencoded
