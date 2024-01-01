@@ -192,3 +192,5 @@ http
 - application/json
 - multipart/form-data
 - multipart/x-www-form-urlencoded
+
+#### applicaiton/json
