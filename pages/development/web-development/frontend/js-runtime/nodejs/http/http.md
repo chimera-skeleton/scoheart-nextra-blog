@@ -244,4 +244,6 @@ http
 function parseFormURLlencoded(data) {
   return querystring.parse(data);
 }
+
+// 输出： [Object: null prototype] { name: 'shuhao', age: '23' }
 ```
