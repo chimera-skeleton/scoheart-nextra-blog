@@ -1,7 +1,9 @@
 # MIME
 
 https://www.iana.org/assignments/media-types/media-types.xhtml
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+
 https://www.rfc-editor.org/rfc/rfc6838.html
 
 浏览不是通过文件扩展名来区分文件的，而是通过 MIME type 来区分文件的。`HTTP header field-line` 中的 `Content-Type` 告诉浏览器文件是什么类型，这样浏览器才能知道如何处理它。
