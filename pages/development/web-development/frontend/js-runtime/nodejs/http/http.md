@@ -193,4 +193,55 @@ http
 - multipart/form-data
 - multipart/x-www-form-urlencoded
 
-#### applicaiton/json
+下面的测试都用传递一个人的个人信息的数据测试
+
+```
+# 将下面这个人的个人信息通过不同的MIME type传递测试
+Person
+- name “shuhao”
+- age 23
+```
+
+#### 解析 applicaiton/json
+
+```js
+const http = require('http');
+
+http
+  .createServer((req, res) => {
+    req.on('data', (chunk) => {
+      console.log(JSON.parse(chunk.toString()));
+    });
+    res.end();
+  })
+  .listen(8080);
+
+// 输出： { name: 'shuhao', age: 23 }
+```
+
+#### 解析 multipart/form-data
+
+原生处理较为复杂，建议借助第三方库处理，这里不做具体代码演示：可用的第三方库有
+
+- formidable
+- multer
+- busboy
+
+#### 解析 multipart/x-www-form-urlencoded
+
+```js
+const http = require('http');
+const querystring = require('querystring');
+http
+  .createServer((req, res) => {
+    req.on('data', (chunk) => {
+      console.log(parseFormURLlencoded(chunk.toString()));
+    });
+    res.end();
+  })
+  .listen(8080);
+
+function parseFormURLlencoded(data) {
+  return querystring.parse(data);
+}
+```
