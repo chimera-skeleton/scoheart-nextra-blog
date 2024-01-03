@@ -1,0 +1,4 @@
+# Figma
+
+## Data Types
+### Image
